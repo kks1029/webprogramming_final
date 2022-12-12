@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="navbar.js" defer></script>
+    <link rel="stylesheet" href="navbar.css" />
+    <script src="6box.js" defer></script>
+    <link rel="stylesheet" href="6box.css" />
+    <script
+      src="https://kit.fontawesome.com/ca1da36492.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar_logo">
+        <i class="logo"></i>
+        <a href="homepage.html">K-WAVE</a>
+      </div>
+      <ul class="navbar_menu">
+        <li><a href="han.html">한류</a></li>
+        <li><a href="music.html">음악</a></li>
+        <li><a href="drama.html">드라마</a></li>
+        <li><a href="sports.html">스포츠</a></li>
+        <li><a href="tech.html">기술</a></li>
+        <li><a href="tradi.html">전통</a></li>
+        <li><a href="langu.html">언어</a></li>
+      </ul>
+      <a href="#" class="navbar_btn">
+        <i class="fa-solid fa-bars"></i>
+      </a>
+    </nav>
+    <section class="page_section" id="portfolio">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="text-center"><p>Tradition</p></h2>
+            <h3 class="text-center">
+              <p>About Korea's Traditon</p>
+            </h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#p1">
+              <div id="img1" class="upimghover">
+                <img
+                  class="img-fluid"
+                  src="https://www.korea.kr/newsWeb/resources/attaches/2015.10/08/%ED%95%9C%EC%98%A5221.jpg"
+                  alt="1"
+                />
+              </div>
+            </a>
+            <div class="portfolio-caption">
+              <h4>한옥</h4>
+              <p class="text-muted">한국의 전통가옥</p>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#p2">
+              <div id="img2" class="upimghover">
+                <img
+                  class="img-fluid"
+                  src="https://health.chosun.com/site/data/img_dir/2021/09/01/2021090100998_0.jpg"
+                  alt="2"
+                />
+              </div>
+            </a>
+            <div class="portfolio-caption">
+              <h4>김치</h4>
+              <p class="text-muted">Kimchi</p>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#p3">
+              <div id="img3" class="upimghover">
+                <img
+                  class="img-fluid"
+                  src="https://en.pimg.jp/060/173/218/1/60173218.jpg"
+                  alt="3"
+                />
+              </div>
+            </a>
+            <div class="portfolio-caption">
+              <h4>한복</h4>
+              <p class="text-muted">한국의 전통 의복</p>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#p4">
+              <div id="img4" class="downimghover">
+                <img
+                  class="img-fluid"
+                  src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Ondol.png"
+                  alt="4"
+                />
+              </div>
+            </a>
+            <div class="portfolio-caption">
+              <h4>온돌</h4>
+              <p class="text-muted">한국의 전통 바닥 난방</p>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#p5">
+              <div id="img5" class="downimghover">
+                <img
+                  class="img-fluid"
+                  src="https://www.sciencetimes.co.kr/wp-content/uploads/2021/07/n%EA%B0%91%EC%9D%B8%EC%9E%90.jpg"
+                  alt="5"
+                />
+              </div>
+            </a>
+            <div class="portfolio-caption">
+              <h4>금속활자</h4>
+              <p class="text-muted">최초의 금속활자</p>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#p6">
+              <div id="img6" class="downimghover">
+                <img
+                  class="img-fluid"
+                  src="http://down.edunet4u.net/KEDNCM/A000800002_20150821/e4_soc_16_06_img01.jpg"
+                  alt="6"
+                />
+              </div>
+            </a>
+            <div class="portfolio-caption">
+              <h4>놀이</h4>
+              <p class="text-muted">한국의 전통놀이</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div id="p1">
+      <div class="modal_bg hidden">
+        <div class="bg"></div>
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">한옥</h2>
+                  <p class="item-intro text-muted">한국의 전통가옥</p>
+                  <img
+                    class="img-fluid d-block mx-auto"
+                    src="https://t1.daumcdn.net/cfile/tistory/275257485739EFFD1E"
+                    alt="Keep Exploring"
+                  />
+                  <p></p>
+                  <p class="midp">
+                    한옥에는 공간적 장점이 있다. 사계절의 다양함을 직접 느낄 수
+                    있는 내·외부 공간의 유동적 접속과 분절은 고유한 특성이다.
+                    우수성이 널리 알려진 온돌 난방과 흙벽, 창호 역시 한옥의
+                    환경적 성능을 보여준다. 한옥을 짓는데 들어가는 자연재료는
+                    현대 주거지에서 발생하는 화학성분과 그로 인한 각종 질환들을
+                    발생시키지 않을 뿐 아니라 자연 분해된다. 한옥의 문화적
+                    정체성 역시 간과할 수 없다. 이 때문에 ‘전통문화의 세계화를
+                    통한 문화강국 실현’을 중심으로 하는 ‘한스타일 사업’에서
+                    한옥은 주요한 위치를 차지하고 있다
+                  </p>
+
+                  <p></p>
+                  <button
+                    class="btn btn-primary"
+                    data-dismiss="modal"
+                    type="button"
+                  >
+                    <i class="fas fa-times"></i>
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="p2">
+      <div class="modal_bg hidden">
+        <div class="bg"></div>
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">김치</h2>
+                  <p class="item-intro text-muted">Kimchi</p>
+                  <img
+                    class="img-fluid d-block mx-auto"
+                    src="https://health.chosun.com/site/data/img_dir/2021/09/01/2021090100998_0.jpg"
+                    alt="Keep Exploring"
+                  />
+                  <p></p>
+                  <p class="midp">
+                    말레이시아사무소는 “한국 드라마를 통해 김치를 친근하게
+                    느끼는 현지인들이 늘었고, 한국 김치가 발효식품으로 건강에도
+                    좋다는 점이 입소문을 타고 퍼진 결과”라고 말했다. 실제
+                    쿠알라룸푸르 시내 대부분 슈퍼마켓에서 한국산 김치를 쉽게
+                    찾아볼 수 있다. 체험행사 참가자들에게 한국 김치의 역사와
+                    효능을 설명하고, 현지인들도 쉽게 따라할 수 있는 김치 담그는
+                    법, 현지에서 구입 가능한 한국 김치제품 등을 소개했다.
+                  </p>
+
+                  <p></p>
+                  <button
+                    class="btn btn-primary"
+                    data-dismiss="modal"
+                    type="button"
+                  >
+                    <i class="fas fa-times"></i>
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="p3">
+      <div class="modal_bg hidden">
+        <div class="bg"></div>
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">한복</h2>
+                  <p class="item-intro text-muted">한국의 전통 의복</p>
+                  <img
+                    class="img-fluid d-block mx-auto"
+                    src="https://en.pimg.jp/060/173/218/1/60173218.jpg"
+                    alt="Keep Exploring"
+                  />
+                  <p></p>
+                  <p class="midp">
+                    한복은 최근에는 세계화의 길을 걷고 있다. 물론 정부나 각
+                    단체에서 한복 홍보에 열심인 덕분도 있지만 요즘 전 지구적으로
+                    세를 확장하는 K-컬쳐의 덕도 보고 있다. 1993년 프랑스에서
+                    열린 한복 디자이너 이영희의 패션쇼 한복을 널리 알리는 계기가
+                    됐다. 이후에는 전 세계에서 한복 패션쇼가 열리고 한복을
+                    입어보는 행사나 아예 한복을 구매를 위해 마켓을 찾는 외국인이
+                    늘어났다.
+                  </p>
+
+                  <p></p>
+                  <button
+                    class="btn btn-primary"
+                    data-dismiss="modal"
+                    type="button"
+                  >
+                    <i class="fas fa-times"></i>
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="p4">
+      <div class="modal_bg hidden">
+        <div class="bg"></div>
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">온돌</h2>
+                  <p class="item-intro text-muted">한국의 전통 바닥 난방</p>
+                  <img
+                    class="img-fluid d-block mx-auto"
+                    src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Ondol.png"
+                    alt="Keep Exploring"
+                  />
+                  <p></p>
+                  <p class="midp">
+                    외국인들이 한국을 방문한 뒤 남긴 기록 중에 온돌에 대한
+                    기록도 많이 남아 있다. ‘벽난로에 비해 매우 효율적인
+                    방식’이라는 칭찬이 주류를 이루는데, ‘조선인들은 빵처럼
+                    구워지는 것을 좋아한다’라든가, ‘용광로에서 잠을 자는
+                    기분이었다’와 같은 특이한 묘사들도 많다. 지난 평창올림픽
+                    때는 선수촌 온돌방이 각국 선수들로부터 호평을 받은 바
+                    있는데, 대표적으로 캐나다 쇼트트랙 선수 샤를르 아믈랭은
+                    맨발에 속옷차림으로 온돌의 매력을 즐기는 영상을 올려 많은
+                    호응을 얻었고, 토마스 바흐 IOC위원장도 한국식 온돌문화를
+                    적용한 평창올림픽 선수촌 숙소시설에 감탄을 하였다고 한다.
+                  </p>
+
+                  <p></p>
+                  <button
+                    class="btn btn-primary"
+                    data-dismiss="modal"
+                    type="button"
+                  >
+                    <i class="fas fa-times"></i>
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="p5">
+      <div class="modal_bg hidden">
+        <div class="bg"></div>
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">금속활자</h2>
+                  <p class="item-intro text-muted">최초의 금속활자</p>
+                  <img
+                    class="img-fluid d-block mx-auto"
+                    src="https://www.sciencetimes.co.kr/wp-content/uploads/2021/07/n%EA%B0%91%EC%9D%B8%EC%9E%90.jpg"
+                    alt="Keep Exploring"
+                  />
+                  <p></p>
+                  <p class="midp">
+                    직지가 프랑스에 있다는 사실이 널리 알려지게 된 건 1967년부터
+                    13년간 프랑스 국립도서관에서 일하던 박병선 박사가 외규장각
+                    문서와 함께 찾아내고서부터이다.프랑스 국립도서관 지하실
+                    구석에서 먼지에 싸여 있는 직지를 찾아냈다고 한다. 세계에서
+                    가장 오래된 금속활자 인쇄물이라는 사실도 1972년 박병선
+                    박사에 의해 밝혀졌다. 발견 당시 학계에서는 직지가 요하네스
+                    구텐베르크의 성서보다 더 오래된 금속활자본이라는 말을 믿지
+                    않고 무시했기 때문에, 결국 박병선 박사는 혼자서 연구를
+                    시작했고, 한국 학자들의 도움을 받아 기어이 세계에서 가장
+                    오래된 금속활자임을 입증해낸다. 이로써 그녀는 직지대모로
+                    불리게 된다.
+                  </p>
+
+                  <p></p>
+                  <button
+                    class="btn btn-primary"
+                    data-dismiss="modal"
+                    type="button"
+                  >
+                    <i class="fas fa-times"></i>
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="p6">
+      <div class="modal_bg hidden">
+        <div class="bg"></div>
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">놀이</h2>
+                  <p class="item-intro text-muted">한국의 전통놀이</p>
+                  <img
+                    class="img-fluid d-block mx-auto"
+                    src="https://img.insight.co.kr/static/2021/10/02/700/img_20211002152113_0bm6548g.webp"
+                    alt="Keep Exploring"
+                  />
+                  <p></p>
+                  <p class="midp">
+                    넷플릭스 오리지널 드라마 '오징어 게임'이 대성공을 거두며 전
+                    세계가 '한국 전통놀이' 문화에 푹 빠졌다. '무궁화 꽃이
+                    피었습니다'를 비롯해 '달고나 뽑기', '줄다리기', '구슬 따기',
+                    '딱지치기' 등 어린 시절 친구들과 함께 쉬는 시간 마다 했던
+                    추억의 놀이들을 전 세계인이 공유하는 초유의 사태가 벌어졌다.
+                  </p>
+
+                  <ul class="list-inline">
+                    <li>전통놀이의 세계화</li>
+                  </ul>
+
+                  <p></p>
+                  <button
+                    class="btn btn-primary"
+                    data-dismiss="modal"
+                    type="button"
+                  >
+                    <i class="fas fa-times"></i>
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

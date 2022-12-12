@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="navbar.js" defer></script>
+    <link rel="stylesheet" href="navbar.css" />
+    <script src="6box.js" defer></script>
+    <link rel="stylesheet" href="6box.css" />
+    <script
+      src="https://kit.fontawesome.com/ca1da36492.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar_logo">
+        <i class="logo"></i>
+        <a href="homepage.html">K-WAVE</a>
+      </div>
+      <ul class="navbar_menu">
+        <li><a href="han.html">한류</a></li>
+        <li><a href="music.html">음악</a></li>
+        <li><a href="drama.html">드라마</a></li>
+        <li><a href="sports.html">스포츠</a></li>
+        <li><a href="tech.html">기술</a></li>
+        <li><a href="tradi.html">전통</a></li>
+        <li><a href="langu.html">언어</a></li>
+      </ul>
+      <a href="#" class="navbar_btn">
+        <i class="fa-solid fa-bars"></i>
+      </a>
+    </nav>
+    <section class="page_section" id="portfolio">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="text-center"><p>Music</p></h2>
+            <h3 class="text-center">
+              <p>About K-POP</p>
+            </h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#p1">
+              <div id="img1" class="upimghover">
+                <img
+                  class="img-fluid"
+                  src="https://i.scdn.co/image/ab67706f00000003a7aec3961666dee881cee250"
+                  alt="1"
+                />
+              </div>
+            </a>
+            <div class="portfolio-caption">
+              <h4>BTS</h4>
+              <p class="text-muted">방탄소년단</p>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#p2">
+              <div id="img2" class="upimghover">
+                <img
+                  class="img-fluid"
+                  src="https://img1.daumcdn.net/thumb/R1280x0/?fname=http://t1.daumcdn.net/brunch/service/user/9wzv/image/-cn5uYPhHx9EyFcmpGVg6mlxmlw.jpg"
+                  alt="2"
+                />
+              </div>
+            </a>
+            <div class="portfolio-caption">
+              <h4>다양한 그룹</h4>
+              <p class="text-muted">세계로 나가는 다양한 그룹</p>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#p3">
+              <div id="img3" class="upimghover">
+                <img
+                  class="img-fluid"
+                  src="https://media.istockphoto.com/id/1200830224/ko/%EB%B2%A1%ED%84%B0/%ED%95%9C%EA%B5%AD%EC%9D%98-%EB%8C%80%EC%A4%91-%EC%9D%8C%EC%95%85-%EC%8A%A4%ED%83%80%EC%9D%BC-%EC%86%90%EA%B0%80%EB%9D%BD-%ED%95%98%ED%8A%B8-%EA%B8%B0%ED%98%B8.jpg?s=612x612&w=0&k=20&c=4ZzAJvirFGdgr0T58JcimZmHSV7Qv9VuB-BV3CXDzRk="
+                  alt="3"
+                />
+              </div>
+            </a>
+            <div class="portfolio-caption">
+              <h4>수출현황</h4>
+              <p class="text-muted">아이돌들의 수익과 활동 범위</p>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#p4">
+              <div id="img4" class="downimghover">
+                <img
+                  class="img-fluid"
+                  src="https://m.ntok.go.kr/Down/Perf/201907/%EC%99%84%EC%B0%BD_3.jpg"
+                  alt="4"
+                />
+              </div>
+            </a>
+            <div class="portfolio-caption">
+              <h4>판소리</h4>
+              <p class="text-muted">판소리의 세계화</p>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#p5">
+              <div id="img5" class="downimghover">
+                <img
+                  class="img-fluid"
+                  src="http://www.ekoreanews.co.kr/news/photo/201707/22044_29389_3341.jpg"
+                  alt="5"
+                />
+              </div>
+            </a>
+            <div class="portfolio-caption">
+              <h4>사물놀이</h4>
+              <p class="text-muted">사물놀이의 세계화</p>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#p6">
+              <div id="img6" class="downimghover">
+                <img
+                  class="img-fluid"
+                  src="https://i.ytimg.com/vi/7-3lMurUvls/mqdefault.jpg"
+                  alt="6"
+                />
+              </div>
+            </a>
+            <div class="portfolio-caption">
+              <h4>반응</h4>
+              <p class="text-muted">각종 밈과 반응들</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div id="p1">
+      <div class="modal_bg hidden">
+        <div class="bg"></div>
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">BTS</h2>
+                  <p class="item-intro text-muted">
+                    가장 유명한 K-POP 그룹 BTS
+                  </p>
+                  <img
+                    class="img-fluid d-block mx-auto"
+                    src="https://i.scdn.co/image/ab67706f00000003a7aec3961666dee881cee250"
+                    alt="Keep Exploring"
+                  />
+                  <p></p>
+                  <p class="midp">
+                    방탄복이 총알을 막아내는 것처럼, 살아가는 동안 힘든 일을
+                    겪는 10대, 20대가 겪는 힘든 일과 편견을 막아내고 자신들의
+                    음악적 가치를 당당히 지켜내겠다는 의미를 담고 있다.
+                    방탄소년단을 지칭하는 'BTS'는 본래 이름인 'BangTan
+                    Sonyeundan' 혹은 'Bulletproof Boys'의 준말이다. 2017년
+                    빅히트 뮤직은 방탄소년단의 공식 로고를 교체하면서 과거와
+                    미래를 아우르는 개념으로 의미를 확장시키고, 'Beyond The
+                    Scene'의 준말로 의미를 추가했다. 이는 매 순간마다 청춘의
+                    장면들을 뛰어넘는다는 의미를 가지고 있다.
+                  </p>
+
+                  <ul class="list-inline">
+                    <li>멤버수: 7명</li>
+                    <li>데뷔일 : 2013년 6월 13일</li>
+                    <li>수상내역 : 빌보드 그래미어워드 등 다수</li>
+                  </ul>
+                  <audio
+                    src="BTS  Dynamite MTV Unplugged .mp3"
+                    autoplay
+                    controls
+                  ></audio>
+
+                  <p></p>
+                  <button
+                    class="btn btn-primary"
+                    data-dismiss="modal"
+                    type="button"
+                  >
+                    <i class="fas fa-times"></i>
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="p2">
+      <div class="modal_bg hidden">
+        <div class="bg"></div>
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">다양한 그룹</h2>
+                  <p class="item-intro text-muted">
+                    한류의 주역이 되고있는 다른 그룹들
+                  </p>
+                  <img
+                    class="img-fluid d-block mx-auto"
+                    src="https://www.kocis.go.kr/CONTENTS/BOARD/images/k_pop_now.jpg"
+                    alt="Keep Exploring"
+                  />
+                  <p></p>
+                  <p class="midp">
+                    ‘조용한 아침의 나라’ 한국이 ‘문화 초강대국’으로 급부상하고
+                    있다. 여기에는 한류가 중심 역할을 하고 있다. 한류는 90년대
+                    중후반 대만과 중국 등 아시아권을 중심으로 퍼져나간 드라마를
+                    시작으로 2000년대 중반 이후 K-pop이 이끌고 있다.여기에
+                    SM엔터테인먼트의 어벤저스 그룹 수퍼M이 핫200 차트에서 앨범
+                    데뷔와 함께 1위를 기록했으며, 블랙핑크가 국내 걸그룹 최초로
+                    빌보드 앨범200 차트 2위에 올랐고 전 세계 57개 지역에서
+                    iTunes 앨범차트를 정복하는 성공을 거두었다.남성 아이돌 로는
+                    에이티즈, NCT2021, 몬스타엑스, 업텐션, 엔하이픈, 스트레이
+                    키즈, 빅톤이었고 여성 아이돌은 후보는 ITZY, 레드벨벳,
+                    트와이스, 케플러, 시크릿넘버, 스테이씨, 위클리등이 있다.
+                  </p>
+
+                  <p></p>
+                  <button
+                    class="btn btn-primary"
+                    data-dismiss="modal"
+                    type="button"
+                  >
+                    <i class="fas fa-times"></i>
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="p3">
+      <div class="modal_bg hidden">
+        <div class="bg"></div>
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">수출현황</h2>
+                  <p class="item-intro text-muted">
+                    아이돌의 수입원과 활동 범위
+                  </p>
+                  <img
+                    class="img-fluid d-block mx-auto"
+                    src="https://media.istockphoto.com/id/1200830224/ko/%EB%B2%A1%ED%84%B0/%ED%95%9C%EA%B5%AD%EC%9D%98-%EB%8C%80%EC%A4%91-%EC%9D%8C%EC%95%85-%EC%8A%A4%ED%83%80%EC%9D%BC-%EC%86%90%EA%B0%80%EB%9D%BD-%ED%95%98%ED%8A%B8-%EA%B8%B0%ED%98%B8.jpg?s=612x612&w=0&k=20&c=4ZzAJvirFGdgr0T58JcimZmHSV7Qv9VuB-BV3CXDzRk="
+                    alt="Keep Exploring"
+                  />
+                  <p></p>
+
+                  <ul class="list-inline midp">
+                    <li>
+                      BTS : 글로벌한 인기를 자랑하는 남성 7인조 그룹으로 최근
+                      앨범 <맵 오브 더 솔: 페르소나>는 발매 첫 달에 한국에서만
+                      3,229,032매의 판매고를 올렸다. 앨범뿐만 아니라 콘서트,
+                      판매 상품, 모바일 게임, 광고 모델로 벌어들이는 수익도
+                      상당할 터. 최근 성황리에 마친 '러브 유어셀프' 월드 투어
+                      티켓 수익은 약 800억 원 이상으로 집계된다.
+                    </li>
+                    <br />
+                    <li>
+                      TWICE : 앨범 판매고는 다소 약세를 보이지만 비디오 게임,
+                      교복, 화장품 및 외식 프랜차이즈 등 30개 이상의 브랜드 광고
+                      모델로 폭넓은 사랑을 받으며 특히 공연으로 막대한 수입을
+                      올리는 그룹이다. 한국 여성 걸그룹으로는 최초로 일본 돔
+                      투어를 설 예정이기도 하다.
+                    </li>
+                    <br />
+                    <li>
+                      BLACKPINK : 코첼라 페스티벌 헤드라이너로 설 만큼 세계적인
+                      인지도를 자랑하는 걸그룹. 가장 최근 앨범 <킬 디스 러브>는
+                      첫 주만에 중국에서 35만 장, 한국에서 25만 장이라는 기록을
+                      세우기도. 삼성, 루이비통, 디오르 등 대형 브랜드의 광고
+                      모델로 벌어들이는 수익 역시 막강할 것으로 예상된다.
+                    </li>
+                  </ul>
+
+                  <p></p>
+                  <button
+                    class="btn btn-primary"
+                    data-dismiss="modal"
+                    type="button"
+                  >
+                    <i class="fas fa-times"></i>
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="p4">
+      <div class="modal_bg hidden">
+        <div class="bg"></div>
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">판소리</h2>
+                  <p class="item-intro text-muted">세계로 나가는 판소리</p>
+                  <img
+                    class="img-fluid d-block mx-auto"
+                    src="https://wimg.mk.co.kr/meet/neds/2021/04/image_readtop_2021_368698_16185721014613631.jpg"
+                    alt="Keep Exploring"
+                  />
+                  <p></p>
+                  <p class="midp">
+                    프랑스 파리에도 한국의 소리를 프랑스 관객들에게 소개하는
+                    ‘K-Vox Festival(한국 소리 페스티벌)’이 있다. 현재 이 축제는
+                    3년째를 맞이했고, 올해 처음으로 방문했다. ‘K-Vox Festival’을
+                    처음 만든 사람들은 프랑스 작가 Herve Pejaudier 씨(헤르베
+                    페조디에)와 그의 아내인 한국인 한유미 씨다. 이들은
+                    연극배우기도 하다. 판소리를 연구한 아내를 통해 판소리의
+                    재미를 발견한 페조디에 씨는 판소리를 직접 배웠고, 프랑스
+                    관객에게 이를 소개하기 위해 소리꾼 민혜성 씨와 공연을
+                    만들었다.
+                  </p>
+
+                  <ul class="list-inline">
+                    <li>
+                      <a href="https://m.mk.co.kr/news/society/9834871"
+                        >관련자료</a
+                      >
+                    </li>
+                  </ul>
+                  <br />
+
+                  <p></p>
+                  <button
+                    class="btn btn-primary"
+                    data-dismiss="modal"
+                    type="button"
+                  >
+                    <i class="fas fa-times"></i>
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="p5">
+      <div class="modal_bg hidden">
+        <div class="bg"></div>
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">사물놀이</h2>
+                  <p class="item-intro text-muted">김덕수 사물놀이패</p>
+                  <img
+                    class="img-fluid d-block mx-auto"
+                    src="https://img7.yna.co.kr/etc/inner/KR/2017/10/19/AKR20171019144000805_04_i_P4.jpg"
+                    alt="Keep Exploring"
+                  />
+                  <p></p>
+                  <p class="midp">
+                    12년 전부터 세계 각국을 누비며 「한국의 소리」를 심어온
+                    김덕수 패 사물놀이는 7월11일부터 8월3l일까지
+                    영국·이탈리아·프랑스·핀란드·오스트리아·독일·스위스·일본·캐나다
+                    등 10개국을 돌며 각종 국제 예술제에 참가하고 4회에 걸친
+                    사물놀이 강습회도 갖는다. 일본 삿포로에서 태평양 음악계의
+                    예술 총감독을 맡았던 세계적 거장 고 레너드 번스타인은 이
+                    사물놀이 연주에 반해 김덕수 패를 이 축제의 고정참여 단체로
+                    삼을 것을 주최측에 당부했을 정도. 그간의 끊임없는 노력으로
+                    국제음악계에서 각광받는 명 연주단체로 자리잡은 김덕수 패는
+                    연주여행 형식의 「세계인이 함께 하는 종합예술제(WOMAD)」에
+                    초청돼 이기간 중 캐나다 토론토의 해변축제, 영국 에딘버러
+                    축제와 유니버시아드 올림픽 문화행사인 셰필드 축제, 스위스
+                    찰펠덴 축제 참가공연을 비롯한 수많은 연주무대도 갖게 된
+                    것이다. 이 해외연주여행 기간중 이들이 피터 가브리엘 등
+                    세계적 음악인들과 함께 하는 공연실황은 영국 리얼
+                    월드레코드가 음반으로도 내게된다.
+                  </p>
+
+                  <ul class="list-inline">
+                    <li>쓰이는 악기 : 꽹가리, 징, 장구, 북</li>
+                    <li>생성된 시기: 1978년</li>
+                  </ul>
+
+                  <p></p>
+                  <button
+                    class="btn btn-primary"
+                    data-dismiss="modal"
+                    type="button"
+                  >
+                    <i class="fas fa-times"></i>
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="p6">
+      <div class="modal_bg hidden">
+        <div class="bg"></div>
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">반응</h2>
+                  <p class="item-intro text-muted">
+                    kpop 음원 리액션 관련 자료
+                  </p>
+                  <img
+                    class="img-fluid d-block mx-auto"
+                    src="https://i.ytimg.com/vi/7-3lMurUvls/mqdefault.jpg"
+                    alt="Keep Exploring"
+                  />
+                  <p></p>
+                  <p class="midp">
+                    리액션 비디오가 어쩌다가 K-POP 팬덤의 독특한 활동 양식이
+                    되었는지는 알 수 없지만 PSY가 강남스타일로 유명해진 시기부터
+                    다른 K-POP 뮤직비디오에 관한 리액션 비디오가 올라오기
+                    시작했다. PSY에 이어 유명 아이돌들과 음원 차트 1위를
+                    장식하는 대중 음악 가수들이 먼저 리뷰의 대상이 되었고, 점차
+                    신인 아이돌과 흘러간 가수들에까지 범위가 확장되었다.
+                  </p>
+
+                  <ul class="list-inline midp">
+                    <li>
+                      야생화:
+                      <a href="https://www.youtube.com/watch?v=0SLxEr1NKp0">
+                        야생화 리액션</a
+                      >
+                    </li>
+                    <li>
+                      다이너마이트:
+                      <a href="https://www.youtube.com/watch?v=3Odi47igPxg">
+                        다이너마이트 리액션</a
+                      >
+                    </li>
+                    <li>
+                      핑크베놈 :
+                      <a href="https://www.youtube.com/watch?v=AfMMioZcgGc">
+                        핑크베놈 리액션</a
+                      >
+                    </li>
+                  </ul>
+
+                  <p></p>
+                  <button
+                    class="btn btn-primary"
+                    data-dismiss="modal"
+                    type="button"
+                  >
+                    <i class="fas fa-times"></i>
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

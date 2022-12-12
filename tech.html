@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="navbar.js" defer></script>
+    <link rel="stylesheet" href="navbar.css" />
+    <script src="6box.js" defer></script>
+    <link rel="stylesheet" href="6box.css" />
+    <script
+      src="https://kit.fontawesome.com/ca1da36492.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar_logo">
+        <i class="logo"></i>
+        <a href="homepage.html">K-WAVE</a>
+      </div>
+      <ul class="navbar_menu">
+        <li><a href="han.html">한류</a></li>
+        <li><a href="music.html">음악</a></li>
+        <li><a href="drama.html">드라마</a></li>
+        <li><a href="sports.html">스포츠</a></li>
+        <li><a href="tech.html">기술</a></li>
+        <li><a href="tradi.html">전통</a></li>
+        <li><a href="langu.html">언어</a></li>
+      </ul>
+      <a href="#" class="navbar_btn">
+        <i class="fa-solid fa-bars"></i>
+      </a>
+    </nav>
+    <section class="page_section" id="portfolio">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="text-center"><p>Technology</p></h2>
+            <h3 class="text-center">
+              <p>About Korea's Outstanding Technology</p>
+            </h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#p1">
+              <div id="img1" class="upimghover">
+                <img
+                  class="img-fluid"
+                  src="https://pds.joongang.co.kr/news/component/htmlphoto_mmdata/202211/06/04b06cd8-6bc1-480a-9921-412752554833.jpg"
+                  alt="1"
+                />
+              </div>
+            </a>
+            <div class="portfolio-caption">
+              <h4>스마트폰</h4>
+              <p class="text-muted">한국의 스마트폰</p>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#p2">
+              <div id="img2" class="upimghover">
+                <img
+                  class="img-fluid"
+                  src="https://cdn.epnc.co.kr/news/photo/202108/213221_213166_234.jpg"
+                  alt="2"
+                />
+              </div>
+            </a>
+            <div class="portfolio-caption">
+              <h4>디스플레이</h4>
+              <p class="text-muted">한국의 디스플레이</p>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#p3">
+              <div id="img3" class="upimghover">
+                <img
+                  class="img-fluid"
+                  src="https://pbs.twimg.com/profile_images/1320904462991409152/aEQy2_AY_400x400.jpg"
+                  alt="3"
+                />
+              </div>
+            </a>
+            <div class="portfolio-caption">
+              <h4>삼성</h4>
+              <p class="text-muted">samsung</p>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#p4">
+              <div id="img4" class="downimghover">
+                <img
+                  class="img-fluid"
+                  src="https://cdn.shippingnewsnet.com/news/photo/201606/15870_6404_3821.jpg"
+                  alt="4"
+                />
+              </div>
+            </a>
+            <div class="portfolio-caption">
+              <h4>조선업</h4>
+              <p class="text-muted">세계 1위 조선업</p>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#p5">
+              <div id="img5" class="downimghover">
+                <img
+                  class="img-fluid"
+                  src="https://cdn.safetynews.co.kr/news/photo/202207/214372_213508_1051.jpg"
+                  alt="5"
+                />
+              </div>
+            </a>
+            <div class="portfolio-caption">
+              <h4>건설업</h4>
+              <p class="text-muted">한국의 건설</p>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#p6">
+              <div id="img6" class="downimghover">
+                <img
+                  class="img-fluid"
+                  src="https://t1.daumcdn.net/cfile/tistory/21423948515DCAB118"
+                  alt="6"
+                />
+              </div>
+            </a>
+            <div class="portfolio-caption">
+              <h4>자동차</h4>
+              <p class="text-muted">한국의 자동차</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div id="p1">
+      <div class="modal_bg hidden">
+        <div class="bg"></div>
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">Project Name1</h2>
+                  <p class="item-intro text-muted">
+                    Lorem ipsum dolor sit amet consectetur.
+                  </p>
+                  <img
+                    class="img-fluid d-block mx-auto"
+                    src="https://biz.chosun.com/resizer/NAIZVTQjX_Leyplb5XyBC4dD-mk=/196x399/smart/cloudfront-ap-northeast-1.images.arcpublishing.com/chosunbiz/VWJGOZQFK5COT5O7MMWZNXSO3A.jpg"
+                    alt="Keep Exploring"
+                  />
+                  <p></p>
+                  <p class="midp">
+                    지문인식은 다른 생체 인식 방법보다 기술 완성도가 높고 이용
+                    방법도 쉽다. 지금까지 개발된 보안 플랫폼 중 가장 강력하다고
+                    평가받는다. 스마트폰 전문가들은 아이폰5S와 베가 시크릿노트에
+                    적용된 지문인식 기능을 현재까지 가장 진보한 스마트폰 기술로
+                    꼽았다.
+                  </p>
+
+                  <ul class="list-inline">
+                    <li>
+                      삼성 뿐 아니라 다른 회사에서도 뛰어난 기술을 보유중이었다.
+                    </li>
+                  </ul>
+
+                  <p></p>
+                  <button
+                    class="btn btn-primary"
+                    data-dismiss="modal"
+                    type="button"
+                  >
+                    <i class="fas fa-times"></i>
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="p2">
+      <div class="modal_bg hidden">
+        <div class="bg"></div>
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">디스플레이</h2>
+                  <p class="item-intro text-muted">한국의 디스플레이</p>
+                  <img
+                    class="img-fluid d-block mx-auto"
+                    src="https://cdn.epnc.co.kr/news/photo/202108/213221_213166_234.jpg"
+                    alt="Keep Exploring"
+                  />
+                  <p></p>
+                  <p class="midp">
+                    한국에서 디스플레이 산업은 오랫동안 반도체와 함께 ‘IT산업의
+                    꽃’으로 불렸다. 국내 디스플레이 산업이 본격적으로 발전하기
+                    시작한 건 약 20년 전이다. 디스플레이 산업은 선제적인
+                    연구개발(R&D) 투자로 반도체와 함께 눈부신 고속 성장을
+                    이뤘다. 우리나라 디스플레이 산업의 수출 규모는 2006년
+                    처음으로 100억 달러를 돌파했다. 2017년에는 275억 달러를
+                    기록하며 우리나라 대표적인 주력산업으로 자리매김했다. 가격
+                    경쟁력과 품질까지 갖춘 국산 디스플레이는 소니, 샤프,
+                    파나소닉 등 쟁쟁한 일본 기업들을 밀어내고, 1위를 차지했다.
+                  </p>
+
+                  <ul class="list-inline"></ul>
+
+                  <p></p>
+                  <button
+                    class="btn btn-primary"
+                    data-dismiss="modal"
+                    type="button"
+                  >
+                    <i class="fas fa-times"></i>
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="p3">
+      <div class="modal_bg hidden">
+        <div class="bg"></div>
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">삼성</h2>
+                  <p class="item-intro text-muted">samsung</p>
+                  <img
+                    class="img-fluid d-block mx-auto"
+                    src="https://pbs.twimg.com/profile_images/1320904462991409152/aEQy2_AY_400x400.jpg"
+                    alt="Keep Exploring"
+                  />
+                  <p></p>
+                  <p class="midp">
+                    64조6천661억원(86.0%)은 해외에서 올린 매출이다. 지역별로는
+                    미주가 21조2천328억원으로 가장 많았고,
+                    중국(17조8천139억원)과 아시아·아프리카(16조7천128억원),
+                    유럽(8조9천66억원) 등의 순이었다. 올 상반기 한국의 총
+                    수출액은 2천713억3천만달러(약 313조3천800억원·상반기말
+                    원/달러 환율 기준)였다. 직접 비교 대상은 아니지만 삼성전자의
+                    해외 매출액은 한국 수출의 20.6%에 해당하는 수치다.
+                  </p>
+
+                  <br />
+
+                  <p></p>
+                  <button
+                    class="btn btn-primary"
+                    data-dismiss="modal"
+                    type="button"
+                  >
+                    <i class="fas fa-times"></i>
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="p4">
+      <div class="modal_bg hidden">
+        <div class="bg"></div>
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">조선업</h2>
+                  <p class="item-intro text-muted">세계 1위 조선업</p>
+                  <img
+                    class="img-fluid d-block mx-auto"
+                    src="https://cdn.shippingnewsnet.com/news/photo/201606/15870_6404_3821.jpg"
+                    alt="Keep Exploring"
+                  />
+                  <p></p>
+                  <p class="midp">
+                    6일 산업통상자원부에 따르면, 국내 조선업계가 2022년 상반기
+                    전 세계 발주량 2,153만 CGT 중 45.5%(979만 CGT)를 수주해 세계
+                    1위를 기록했다. 이로써 우리나라는 2018년도 이후 4년 만에
+                    상반기 수주실적 세계 1위를 탈환하였으며, 이는 코로나19
+                    이연수요로 선박 발주가 급증하였던 지난해를 제외하였을 경우
+                    2011년 상반기(1,036만 CGT) 이후 최고 수주량이다.
+                  </p>
+
+                  <ul class="list-inline"></ul>
+                  <br />
+                  <p></p>
+                  <button
+                    class="btn btn-primary"
+                    data-dismiss="modal"
+                    type="button"
+                  >
+                    <i class="fas fa-times"></i>
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="p5">
+      <div class="modal_bg hidden">
+        <div class="bg"></div>
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">건설업</h2>
+                  <p class="item-intro text-muted">한국의 건설</p>
+                  <img
+                    class="img-fluid d-block mx-auto"
+                    src="https://cdn.safetynews.co.kr/news/photo/202207/214372_213508_1051.jpg"
+                    alt="Keep Exploring"
+                  />
+                  <p></p>
+                  <p class="midp">
+                    현대건설은 카타르 수도 도하에 국립박물관을 지었다. 지하
+                    1~지상 5층으로 규모는 평범하지만 외형이 예술이다. 프랑스
+                    유명 건축가 장 누벨이 '사막의 장미'를 모티브 삼아 하늘에서
+                    내려다봤을 때 장미처럼 보이게 설계했다. 싱가포르를 상징하는
+                    건물 마리나 베이 샌즈 호텔은 쌍용건설이 시공에 참여했다.
+                    SK건설이 만든 터키 유라시아 해저터널도 한국 건설 기술을
+                    세계에 널리 알린 사례로 꼽힌다.
+                  </p>
+
+                  <br />
+
+                  <p></p>
+                  <button
+                    class="btn btn-primary"
+                    data-dismiss="modal"
+                    type="button"
+                  >
+                    <i class="fas fa-times"></i>
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="p6">
+      <div class="modal_bg hidden">
+        <div class="bg"></div>
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">자동차</h2>
+                  <p class="item-intro text-muted">한국의 자동차</p>
+                  <img
+                    class="img-fluid d-block mx-auto"
+                    src="https://file.mk.co.kr/meet/neds/2022/08/image_readtop_2022_757533_16615092325149218.jpg"
+                    alt="Keep Exploring"
+                  />
+                  <p></p>
+                  <p class="midp">
+                    (자동차 산업) 유럽 자동차 산업 분석기관 `Jato Dynamics'에
+                    따르면, 한국 브랜드 자동차의 인도시장 점유율은 금년 2분기
+                    22%로 2020년부터 3년간 비슷한 시장점유율을 유지하고 있음 -
+                    특히 인도 소비자들의 SUV에 대한 선호도가 높아짐에 따라 현대,
+                    기아차가 同 분야에서 선두를 달리고 있으나, 보수적인 일본
+                    자동차 업계는 트렌드를 따라잡지 못하고 있다고 언급함 - 이에
+                    따라 점유율을 유지하고 있는 우리나라와는 달리 일본 브랜드의
+                    점유율은 하락세를 보이고 있음
+                  </p>
+                  <br />
+                  <p></p>
+                  <button
+                    class="btn btn-primary"
+                    data-dismiss="modal"
+                    type="button"
+                  >
+                    <i class="fas fa-times"></i>
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

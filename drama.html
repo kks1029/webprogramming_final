@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="navbar.js" defer></script>
+    <link rel="stylesheet" href="navbar.css" />
+    <script src="6box.js" defer></script>
+    <link rel="stylesheet" href="6box.css" />
+    <script
+      src="https://kit.fontawesome.com/ca1da36492.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar_logo">
+        <i class="logo"></i>
+        <a href="homepage.html">K-WAVE</a>
+      </div>
+      <ul class="navbar_menu">
+        <li><a href="han.html">한류</a></li>
+        <li><a href="music.html">음악</a></li>
+        <li><a href="drama.html">드라마</a></li>
+        <li><a href="sports.html">스포츠</a></li>
+        <li><a href="tech.html">기술</a></li>
+        <li><a href="tradi.html">전통</a></li>
+        <li><a href="langu.html">언어</a></li>
+      </ul>
+      <a href="#" class="navbar_btn">
+        <i class="fa-solid fa-bars"></i>
+      </a>
+    </nav>
+    <section class="page_section" id="portfolio">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="text-center"><p>Movie Drama</p></h2>
+            <h3 class="text-center">
+              <p>About Korea's Movie and Drama</p>
+            </h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#p1">
+              <div id="img1" class="upimghover">
+                <img
+                  class="img-fluid"
+                  src="https://img.khan.co.kr/news/2021/04/26/l_2021042601002929400247251.jpg"
+                  alt="1"
+                />
+              </div>
+            </a>
+            <div class="portfolio-caption">
+              <h4>봉준호</h4>
+              <p class="text-muted">한국의 유명 감독</p>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#p2">
+              <div id="img2" class="upimghover">
+                <img
+                  class="img-fluid"
+                  src="https://w.namu.la/s/85fc4056477cef9c93203acdd65b3921a407beee28a205d65995215f9a9d7af97f4d66be8cd9e9e0cbf4e5a5778b7c49ad706a0865dd1d60980520b37f78591fc00b935ad87083c04655157d071bf2967f91bf22a7e91744dc2f7af4594b0f5486d9a9c21041f9263935ab7843300f8b"
+                  alt="2"
+                />
+              </div>
+            </a>
+            <div class="portfolio-caption">
+              <h4>기생충</h4>
+              <p class="text-muted">Parasite</p>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#p3">
+              <div id="img3" class="upimghover">
+                <img
+                  class="img-fluid"
+                  src="https://img.hankyung.com/photo/202106/0Q.26689268.1.jpg"
+                  alt="3"
+                />
+              </div>
+            </a>
+            <div class="portfolio-caption">
+              <h4>설국열차</h4>
+              <p class="text-muted">SnowPiercer</p>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#p4">
+              <div id="img4" class="downimghover">
+                <img
+                  class="img-fluid"
+                  src="https://cloudfront-ap-northeast-1.images.arcpublishing.com/chosun/IKTBIHZGCMDH545MZHLDUVXSIE.jpg"
+                  alt="4"
+                />
+              </div>
+            </a>
+            <div class="portfolio-caption">
+              <h4>오징어 게임</h4>
+              <p class="text-muted">Squid Game</p>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#p5">
+              <div id="img5" class="downimghover">
+                <img
+                  class="img-fluid"
+                  src="https://cloudfront-ap-northeast-1.images.arcpublishing.com/chosunbiz/XQNKZZ4M4JYC2RUSLHQ4CJAPEI.jpg"
+                  alt="5"
+                />
+              </div>
+            </a>
+            <div class="portfolio-caption">
+              <h4>별에서 온 그대</h4>
+              <p class="text-muted">각국에서 리메이크 되는 원작</p>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#p6">
+              <div id="img6" class="downimghover">
+                <img
+                  class="img-fluid"
+                  src="https://img5.yna.co.kr/etc/inner/KR/2012/03/12/AKR20120312101200005_01_i_P4.jpg"
+                  alt="6"
+                />
+              </div>
+            </a>
+            <div class="portfolio-caption">
+              <h4>시크릿 가든</h4>
+              <p class="text-muted">한류 드라마의 시초</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div id="p1">
+      <div class="modal_bg hidden">
+        <div class="bg"></div>
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">봉준호</h2>
+                  <p class="item-intro text-muted">한국의 유명 감독</p>
+                  <img
+                    class="img-fluid d-block mx-auto"
+                    src="https://img.khan.co.kr/news/2021/04/26/l_2021042601002929400247251.jpg"
+                    alt="Keep Exploring"
+                  />
+                  <p></p>
+                  <p class="midp">
+                    최고, 최다, 최초의 기록을 모두 보유한 자타공인 한국 영화의
+                    아이콘이며, 예술성과 오락성 그리고 대중성과 독창성을 전
+                    세계에서 모두 인정받은 세계적인 거장이다. 더불어 오늘날 가장
+                    영향력 있고 혁신적인 시네아스트(Cineaste) 중 한 명으로
+                    평가받는 선구자이자, 비평과 흥행을 모두 섭렵한 천재
+                    감독이다.바로 제93회 아카데미 시상식에서 전년도 수상자
+                    자격으로, 역사상 최초 화상 연결 시상자로 등장해 감독상을
+                    시상했고, 제74회 칸 영화제에서는 스페셜 게스트로 초청받아,
+                    아시아 최초로 직접 영화제의 개막을 선언을 하며 위상을
+                    드러냈고, 다음날에는 무려 400여 명의 팬들이 운집한 마스터
+                    클래스까지 진행하며 세계적인 인기를 증명했다. 그리고 당초
+                    예정 된대로 제78회 베니스 국제 영화제에서도 한국인 최초
+                    심사위원장으로 참석해, 그야말로 영화 예술의 성지 세계 3대
+                    영화제와 영화 산업의 중심 할리우드의 극진한 예우를 받는
+                    세계적 거장으로서의 위용을 제대로 뽐내었다.
+                  </p>
+
+                  <ul class="list-inline">
+                    <li>Do you know Bong joonho?</li>
+                    <li>대표작: 괴물, 설국열차, 기생충</li>
+                  </ul>
+
+                  <p></p>
+                  <button
+                    class="btn btn-primary"
+                    data-dismiss="modal"
+                    type="button"
+                  >
+                    <i class="fas fa-times"></i>
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="p2">
+      <div class="modal_bg hidden">
+        <div class="bg"></div>
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">기생충</h2>
+                  <p class="item-intro text-muted">Parasite</p>
+                  <img
+                    class="img-fluid d-block mx-auto"
+                    src="https://w.namu.la/s/85fc4056477cef9c93203acdd65b3921a407beee28a205d65995215f9a9d7af97f4d66be8cd9e9e0cbf4e5a5778b7c49ad706a0865dd1d60980520b37f78591fc00b935ad87083c04655157d071bf2967f91bf22a7e91744dc2f7af4594b0f5486d9a9c21041f9263935ab7843300f8b"
+                    alt="Keep Exploring"
+                  />
+                  <p></p>
+                  <p class="midp">
+                    순수 비영어권 작품들도 작품성이 좋으면 대성공을 거둔다는
+                    예시를 남겨, 비영어권 창작자에게도 희망을 불어넣어줬다.
+                    실제로 하마구치 류스케는 통역을 통해 "기생충이 굳게 닫혀있던
+                    문을 활짝 열어주었죠.", 기생충, 그리고 그 작품의 수상이
+                    아니었으면, 우리 영화가 이렇게까지 평가받지 못했을
+                    거예요."라고 말했다. 번역 그리고 작품성과 상업성은 양립
+                    가능하다는 선례도 남겼다. 평가가 좋은 작품이 무조건
+                    흥행하지는 않고, 특히 영화제 수상작들은 더욱 그런 경향이
+                    있다. 기생충도 상업영화긴 하지만 스토리는 작가주의 성향이
+                    강한 영화라, 봉준호 감독이 높은 완성도와 영화가 주는
+                    재미에도 불구하고 흥행에 실패할 거라 판단한 것도 이해
+                    가능하다. 그러나 이런 예측에도 기생충은 평가만큼이나
+                    상업적으로도 대성공했다.
+                  </p>
+                  <br />
+
+                  <ul class="list-inline">
+                    <li>개봉일: 2019년 5월 30일</li>
+                  </ul>
+
+                  <p></p>
+                  <button
+                    class="btn btn-primary"
+                    data-dismiss="modal"
+                    type="button"
+                  >
+                    <i class="fas fa-times"></i>
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="p3">
+      <div class="modal_bg hidden">
+        <div class="bg"></div>
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">설국열차</h2>
+                  <p class="item-intro text-muted">SnowPiercer</p>
+                  <img
+                    class="img-fluid d-block mx-auto"
+                    src="https://img.hankyung.com/photo/202106/0Q.26689268.1.jpg"
+                    alt="Keep Exploring"
+                  />
+                  <p></p>
+                  <p class="midp">
+                    《장 마르크 로셰트와 자크 로브의 동명의 프랑스 만화
+                    《설국열차》 (Le Transperceneige)를 원작 그대로 영화화하여,
+                    수 많은 사람들의 심금을 울리기 위한 무거운 주제 의식을 갖춘
+                    소재로, 날로 갈수록 심화되고 있는 빈부격차 세태를 강도 높게
+                    비판한 작품이다. 봉준호가 감독을 맡았으며, 각본은 봉준호와
+                    켈리 마스터슨이, 음악은 마르코 벨트라미가 맡았다. 크리스
+                    에번스, 송강호, 고아성, 제이미 벨, 존 허트, 틸다 스윈턴,
+                    옥타비아 스펜서, 유언 브렘너 등이 캐스팅되었다.
+                    《설국열차》는 개봉하자마자 박스오피스 1위에 오른 이후 2주
+                    동안 1위를 지키고 있으며, 2013년 9월 15일까지 9,271,364명의
+                    관객수를 동원했다. 아카데미 4관왕 봉준호 감독 특집
+                    특선영화로 2020년 3월 21일에 방영되어, 전국 지역 단위별
+                    문화방송 계열 네트워크를 통해서 UHD급 초고화질로 일제히
+                    송출한 바 있다.
+                  </p>
+
+                  <ul class="list-inline">
+                    <li>개봉일: 2013년 8월 1일</li>
+                  </ul>
+
+                  <p></p>
+                  <button
+                    class="btn btn-primary"
+                    data-dismiss="modal"
+                    type="button"
+                  >
+                    <i class="fas fa-times"></i>
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="p4">
+      <div class="modal_bg hidden">
+        <div class="bg"></div>
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">오징어 게임</h2>
+                  <p class="item-intro text-muted">Squid Game</p>
+                  <img
+                    class="img-fluid d-block mx-auto"
+                    src="https://cloudfront-ap-northeast-1.images.arcpublishing.com/chosun/IKTBIHZGCMDH545MZHLDUVXSIE.jpg"
+                    alt="Keep Exploring"
+                  />
+                  <p></p>
+                  <p class="midp">
+                    2021년 10월 13일, 넷플릭스에서 공식적으로 오징어 게임이 역대
+                    가장 많은 시청 가구수를 기록한 콘텐츠라고 발표했다. 단 17일
+                    만에 1억 1100만 유료 가입 가구가 시청하였으며, 이는 기존
+                    시리즈 최고 기록이었던 브리저튼 시즌 1의 28일간 8200만
+                    가구를 큰 차이로 넘은 수치고, 모든 콘텐츠를 통틀어 역대 최초
+                    1억 가구 시청 돌파 기록이다. 이에 넷플릭스는 역대 최고
+                    시리즈가 탄생한 것을 기념하여 특별 영상을 제작하여 배포했다.
+                    원래 시청 기록 같은 것은 해당 작품의 28일간 기록으로 분기
+                    실적 발표할 때 같이 발표하는 것이 관행이었지만 이례적으로
+                    17일간의 수치로 분기 실적 발표 이전에 발표했다. 한국
+                    시간으로 2021년 10월 20일에 진행된 넷플릭스의 분기 실적
+                    발표에서 첫 28일 동안 1억 4200만 가구가 시청했다고
+                    집계되었다. 또한, 넷플릭스가 공식적으로 콘텐츠별 시청 시간을
+                    공개한 홈페이지에 따르면 첫 28일 동안 약 16억 5000만 시간의
+                    누적 시청 시간을 기록했다고 집계되었다.
+                  </p>
+
+                  <p></p>
+                  <button
+                    class="btn btn-primary"
+                    data-dismiss="modal"
+                    type="button"
+                  >
+                    <i class="fas fa-times"></i>
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="p5">
+      <div class="modal_bg hidden">
+        <div class="bg"></div>
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">별에서 온 그대</h2>
+                  <p class="item-intro text-muted">
+                    각국에서 리메이크 되는 원작
+                  </p>
+                  <img
+                    class="img-fluid d-block mx-auto"
+                    src="https://cloudfront-ap-northeast-1.images.arcpublishing.com/chosunbiz/XQNKZZ4M4JYC2RUSLHQ4CJAPEI.jpg"
+                    alt="Keep Exploring"
+                  />
+                  <p></p>
+                  <p class="midp">
+                    미국 한 유력 매체는 '미국 지상파 방송국인 ABC에서 올 초
+                    종영된 SBS 드라마 '별에서 온 그대'를 리메이크해 내보낸다'고
+                    보도했다. 이와 관련 제작사 HB엔터테인먼트 관계자도 "'별에서
+                    온 그대' 미국 리메이크에 대해 얘기가 오갔고 최종 확정을 짓고
+                    새로운 작업을 준비 중이다"고 밝혔다. 지난 19일(현지 시간)
+                    일본 아마존 프라임은 공식 유튜브 계정을 통해 일본판 '별에서
+                    온 그대' 공식 예고편을 공개했다. 일본판 별그대는 '별에서 온
+                    당신(星から来たあなた)'이라는 이름으로 오는 2월 28일 아마존
+                    프라임을 통해 공개될 예정이다.
+                  </p>
+
+                  <p></p>
+                  <button
+                    class="btn btn-primary"
+                    data-dismiss="modal"
+                    type="button"
+                  >
+                    <i class="fas fa-times"></i>
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="p6">
+      <div class="modal_bg hidden">
+        <div class="bg"></div>
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">시크릿 가든</h2>
+                  <p class="item-intro text-muted">한류 드라마의 시초</p>
+                  <img
+                    class="img-fluid d-block mx-auto"
+                    src="https://img5.yna.co.kr/etc/inner/KR/2012/03/12/AKR20120312101200005_01_i_P4.jpg"
+                    alt="Keep Exploring"
+                  />
+                  <p></p>
+                  <p class="midp">
+                    해외 누리꾼 2024명을 대상으로 실시한 가장 좋아하는 한국
+                    드라마에 대한 설문조사 결과를 발표했다. 그 결과 드라마
+                    ‘시크릿 가든’이 16.1%(326명)의 지지를 얻어 1위에 뽑혔다.
+                    ‘시크릿가든’의 뒤는‘꽃보다 남자’(13.1%),
+                    ‘미남이시네요’(11.1%), ‘궁’(8.1%), ‘커피프린스 1호점’(7.4%),
+                    ‘풀하우스’(6%), ‘성균관 스캔들’(5.8%) 등이 꼽혔다. 해외
+                    누리꾼들의 선택은 드라마뿐 아니라 드라마 속 주인공으로도 그
+                    관심이 이어졌다. ‘애인 삼고 싶은 남자 주인공’으로도 ‘시크릿
+                    가든’의 주원(현빈)을 꼽았으며 ‘꽃보다 남자’
+                    윤지후(김현중)·구준표(이민호), ‘미남이시네요’
+                    황태경(장근석), ‘찬란한 유산’ 선우환(이승기) 등이 뒤를
+                    이었다.
+                  </p>
+
+                  <p></p>
+                  <button
+                    class="btn btn-primary"
+                    data-dismiss="modal"
+                    type="button"
+                  >
+                    <i class="fas fa-times"></i>
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

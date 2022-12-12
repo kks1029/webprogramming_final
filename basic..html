@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="navbar.js" defer></script>
+    <link rel="stylesheet" href="navbar.css" />
+    <script src="6box.js" defer></script>
+    <link rel="stylesheet" href="6box.css" />
+    <script
+      src="https://kit.fontawesome.com/ca1da36492.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar_logo">
+        <i class="logo"></i>
+        <a href="basicpage.html">K-WAVE</a>
+      </div>
+      <ul class="navbar_menu">
+        <li><a href="">한류</a></li>
+        <li><a href="music.html">음악</a></li>
+        <li><a href="">드라마</a></li>
+        <li><a href="">스포츠</a></li>
+        <li><a href="">기술</a></li>
+        <li><a href="">전통</a></li>
+        <li><a href="">언어</a></li>
+      </ul>
+      <a href="#" class="navbar_btn">
+        <i class="fa-solid fa-bars"></i>
+      </a>
+    </nav>
+    <section class="page_section" id="portfolio">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="text-center"><p>Music</p></h2>
+            <h3 class="text-center">
+              <p>Lorem ipsum dolor sit</p>
+            </h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#p1">
+              <div id="img1" class="upimghover">
+                <img
+                  class="img-fluid"
+                  src="data:image/png;base64,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"
+                  alt="1"
+                />
+              </div>
+            </a>
+            <div class="portfolio-caption">
+              <h4>Threads</h4>
+              <p class="text-muted">Illustration</p>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#p2">
+              <div id="img2" class="upimghover">
+                <img
+                  class="img-fluid"
+                  src="https://cdn.crowdpic.net/list-thumb/thumb_l_D623AE308211C3678E61EC0E3FF3C969.jpg"
+                  alt="2"
+                />
+              </div>
+            </a>
+            <div class="portfolio-caption">
+              <h4>Explore</h4>
+              <p class="text-muted">Graphic Design</p>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#p3">
+              <div id="img3" class="upimghover">
+                <img
+                  class="img-fluid"
+                  src="assets/img/portfolio/03-thumbnail.jpg"
+                  alt="3"
+                />
+              </div>
+            </a>
+            <div class="portfolio-caption">
+              <h4>Finish</h4>
+              <p class="text-muted">Identity</p>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#p4">
+              <div id="img4" class="downimghover">
+                <img
+                  class="img-fluid"
+                  src="assets/img/portfolio/04-thumbnail.jpg"
+                  alt="4"
+                />
+              </div>
+            </a>
+            <div class="portfolio-caption">
+              <h4>Lines</h4>
+              <p class="text-muted">Branding</p>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#p5">
+              <div id="img5" class="downimghover">
+                <img
+                  class="img-fluid"
+                  src="assets/img/portfolio/05-thumbnail.jpg"
+                  alt="5"
+                />
+              </div>
+            </a>
+            <div class="portfolio-caption">
+              <h4>Southwest</h4>
+              <p class="text-muted">Website Design</p>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#p6">
+              <div id="img6" class="downimghover">
+                <img
+                  class="img-fluid"
+                  src="assets/img/portfolio/06-thumbnail.jpg"
+                  alt="6"
+                />
+              </div>
+            </a>
+            <div class="portfolio-caption">
+              <h4>Window</h4>
+              <p class="text-muted">Photography</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div id="p1">
+      <div class="modal_bg hidden">
+        <div class="bg"></div>
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">Project Name1</h2>
+                  <p class="item-intro text-muted">
+                    Lorem ipsum dolor sit amet consectetur.
+                  </p>
+                  <img
+                    class="img-fluid d-block mx-auto"
+                    src="https://raviriley.github.io/agency-jekyll-theme-starter/assets/img/portfolio/02-full.jpg"
+                    alt="Keep Exploring"
+                  />
+                  <p></p>
+                  <p>
+                    Use this area to describe your project. Lorem ipsum dolor
+                    sit amet, consectetur adipisicing elit. Est blanditiis
+                    dolorem culpa incidunt minus dignissimos deserunt repellat
+                    aperiam quasi sunt officia expedita beatae cupiditate,
+                    maiores repudiandae, nostrum, reiciendis facere nemo!
+                  </p>
+
+                  <ul class="list-inline">
+                    <li>Date: January 2017</li>
+                    <li>Client: Explore</li>
+                    <li>Category: Graphic Design</li>
+                  </ul>
+
+                  <p></p>
+                  <button
+                    class="btn btn-primary"
+                    data-dismiss="modal"
+                    type="button"
+                  >
+                    <i class="fas fa-times"></i>
+                    Close Project
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="p2">
+      <div class="modal_bg hidden">
+        <div class="bg"></div>
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">Project Name2</h2>
+                  <p class="item-intro text-muted">
+                    Lorem ipsum dolor sit amet consectetur.
+                  </p>
+                  <img
+                    class="img-fluid d-block mx-auto"
+                    src="https://raviriley.github.io/agency-jekyll-theme-starter/assets/img/portfolio/02-full.jpg"
+                    alt="Keep Exploring"
+                  />
+                  <p></p>
+                  <p>
+                    Use this area to describe your project. Lorem ipsum dolor
+                    sit amet, consectetur adipisicing elit. Est blanditiis
+                    dolorem culpa incidunt minus dignissimos deserunt repellat
+                    aperiam quasi sunt officia expedita beatae cupiditate,
+                    maiores repudiandae, nostrum, reiciendis facere nemo!
+                  </p>
+
+                  <ul class="list-inline">
+                    <li>Date: January 2017</li>
+                    <li>Client: Explore</li>
+                    <li>Category: Graphic Design</li>
+                  </ul>
+
+                  <p></p>
+                  <button
+                    class="btn btn-primary"
+                    data-dismiss="modal"
+                    type="button"
+                  >
+                    <i class="fas fa-times"></i>
+                    Close Project
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="p3">
+      <div class="modal_bg hidden">
+        <div class="bg"></div>
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">Project Name1</h2>
+                  <p class="item-intro text-muted">
+                    Lorem ipsum dolor sit amet consectetur.
+                  </p>
+                  <img
+                    class="img-fluid d-block mx-auto"
+                    src="https://raviriley.github.io/agency-jekyll-theme-starter/assets/img/portfolio/02-full.jpg"
+                    alt="Keep Exploring"
+                  />
+                  <p></p>
+                  <p>
+                    Use this area to describe your project. Lorem ipsum dolor
+                    sit amet, consectetur adipisicing elit. Est blanditiis
+                    dolorem culpa incidunt minus dignissimos deserunt repellat
+                    aperiam quasi sunt officia expedita beatae cupiditate,
+                    maiores repudiandae, nostrum, reiciendis facere nemo!
+                  </p>
+
+                  <ul class="list-inline">
+                    <li>Date: January 2017</li>
+                    <li>Client: Explore</li>
+                    <li>Category: Graphic Design</li>
+                  </ul>
+
+                  <p></p>
+                  <button
+                    class="btn btn-primary"
+                    data-dismiss="modal"
+                    type="button"
+                  >
+                    <i class="fas fa-times"></i>
+                    Close Project
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="p4">
+      <div class="modal_bg hidden">
+        <div class="bg"></div>
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">Project Name1</h2>
+                  <p class="item-intro text-muted">
+                    Lorem ipsum dolor sit amet consectetur.
+                  </p>
+                  <img
+                    class="img-fluid d-block mx-auto"
+                    src="https://raviriley.github.io/agency-jekyll-theme-starter/assets/img/portfolio/02-full.jpg"
+                    alt="Keep Exploring"
+                  />
+                  <p></p>
+                  <p>
+                    Use this area to describe your project. Lorem ipsum dolor
+                    sit amet, consectetur adipisicing elit. Est blanditiis
+                    dolorem culpa incidunt minus dignissimos deserunt repellat
+                    aperiam quasi sunt officia expedita beatae cupiditate,
+                    maiores repudiandae, nostrum, reiciendis facere nemo!
+                  </p>
+
+                  <ul class="list-inline">
+                    <li>Date: January 2017</li>
+                    <li>Client: Explore</li>
+                    <li>Category: Graphic Design</li>
+                  </ul>
+
+                  <p></p>
+                  <button
+                    class="btn btn-primary"
+                    data-dismiss="modal"
+                    type="button"
+                  >
+                    <i class="fas fa-times"></i>
+                    Close Project
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="p5">
+      <div class="modal_bg hidden">
+        <div class="bg"></div>
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">Project Name1</h2>
+                  <p class="item-intro text-muted">
+                    Lorem ipsum dolor sit amet consectetur.
+                  </p>
+                  <img
+                    class="img-fluid d-block mx-auto"
+                    src="https://raviriley.github.io/agency-jekyll-theme-starter/assets/img/portfolio/02-full.jpg"
+                    alt="Keep Exploring"
+                  />
+                  <p></p>
+                  <p>
+                    Use this area to describe your project. Lorem ipsum dolor
+                    sit amet, consectetur adipisicing elit. Est blanditiis
+                    dolorem culpa incidunt minus dignissimos deserunt repellat
+                    aperiam quasi sunt officia expedita beatae cupiditate,
+                    maiores repudiandae, nostrum, reiciendis facere nemo!
+                  </p>
+
+                  <ul class="list-inline">
+                    <li>Date: January 2017</li>
+                    <li>Client: Explore</li>
+                    <li>Category: Graphic Design</li>
+                  </ul>
+
+                  <p></p>
+                  <button
+                    class="btn btn-primary"
+                    data-dismiss="modal"
+                    type="button"
+                  >
+                    <i class="fas fa-times"></i>
+                    Close Project
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="p6">
+      <div class="modal_bg hidden">
+        <div class="bg"></div>
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">Project Name1</h2>
+                  <p class="item-intro text-muted">
+                    Lorem ipsum dolor sit amet consectetur.
+                  </p>
+                  <img
+                    class="img-fluid d-block mx-auto"
+                    src="https://raviriley.github.io/agency-jekyll-theme-starter/assets/img/portfolio/02-full.jpg"
+                    alt="Keep Exploring"
+                  />
+                  <p></p>
+                  <p>
+                    Use this area to describe your project. Lorem ipsum dolor
+                    sit amet, consectetur adipisicing elit. Est blanditiis
+                    dolorem culpa incidunt minus dignissimos deserunt repellat
+                    aperiam quasi sunt officia expedita beatae cupiditate,
+                    maiores repudiandae, nostrum, reiciendis facere nemo!
+                  </p>
+
+                  <ul class="list-inline">
+                    <li>Date: January 2017</li>
+                    <li>Client: Explore</li>
+                    <li>Category: Graphic Design</li>
+                  </ul>
+
+                  <p></p>
+                  <button
+                    class="btn btn-primary"
+                    data-dismiss="modal"
+                    type="button"
+                  >
+                    <i class="fas fa-times"></i>
+                    Close Project
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

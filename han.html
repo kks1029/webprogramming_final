@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="navbar.js" defer></script>
+    <link rel="stylesheet" href="navbar.css" />
+    <script src="6box.js" defer></script>
+    <link rel="stylesheet" href="6box.css" />
+    <script
+      src="https://kit.fontawesome.com/ca1da36492.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar_logo">
+        <i class="logo"></i>
+        <a href="homepage.html">K-WAVE</a>
+      </div>
+      <ul class="navbar_menu">
+        <li><a href="han.html">한류</a></li>
+        <li><a href="music.html">음악</a></li>
+        <li><a href="drama.html">드라마</a></li>
+        <li><a href="sports.html">스포츠</a></li>
+        <li><a href="tech.html">기술</a></li>
+        <li><a href="tradi.html">전통</a></li>
+        <li><a href="langu.html">언어</a></li>
+      </ul>
+      <a href="#" class="navbar_btn">
+        <i class="fa-solid fa-bars"></i>
+      </a>
+    </nav>
+    <section class="page_section" id="portfolio">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="text-center"><p>한류</p></h2>
+            <h3 class="text-center">
+              <p>한류 음식 사례</p>
+            </h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#p1">
+              <div id="img1" class="upimghover">
+                <img
+                  class="img-fluid"
+                  src="https://t1.daumcdn.net/news/201703/31/kbs/20170331182833943jlqs.jpg"
+                  alt="1"
+                />
+              </div>
+            </a>
+            <div class="portfolio-caption">
+              <h4>라면</h4>
+              <p class="text-muted">세계로 나가는 한국 라면</p>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#p2">
+              <div id="img2" class="upimghover">
+                <img
+                  class="img-fluid"
+                  src="http://img2.sbs.co.kr/img/sbs_cms/VD/2015/12/07/VD33940216_w640_h360.JPG"
+                  alt="2"
+                />
+              </div>
+            </a>
+            <div class="portfolio-caption">
+              <h4>불고기</h4>
+              <p class="text-muted">외국인도 좋아하는 불고기</p>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#p3">
+              <div id="img3" class="upimghover">
+                <img
+                  class="img-fluid"
+                  src="https://img.cjnews.cj.net/wp-content/uploads/2020/12/mandu_kfood_201211_03.jpg"
+                  alt="3"
+                />
+              </div>
+            </a>
+            <div class="portfolio-caption">
+              <h4>만두</h4>
+              <p class="text-muted">비비고 만두</p>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#p4">
+              <div id="img4" class="downimghover">
+                <img
+                  class="img-fluid"
+                  src="https://health.chosun.com/site/data/img_dir/2021/01/27/2021012702508_0.jpg"
+                  alt="4"
+                />
+              </div>
+            </a>
+            <div class="portfolio-caption">
+              <h4>비빔밥</h4>
+              <p class="text-muted">비빔밥의 세계화</p>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#p5">
+              <div id="img5" class="downimghover">
+                <img
+                  class="img-fluid"
+                  src="https://image.news1.kr/system/photos/2013/4/12/432896/article.jpg/dims/optimize"
+                  alt="5"
+                />
+              </div>
+            </a>
+            <div class="portfolio-caption">
+              <h4>치킨</h4>
+              <p class="text-muted">세계로 나가는 치킨</p>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#p6">
+              <div id="img6" class="downimghover">
+                <img
+                  class="img-fluid"
+                  src="https://cdn.mindgil.com/news/photo/202103/70839_7148_1250.jpg"
+                  alt="6"
+                />
+              </div>
+            </a>
+            <div class="portfolio-caption">
+              <h4>삼겹살</h4>
+              <p class="text-muted">삼겹살 해외 반응</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div id="p1">
+      <div class="modal_bg hidden">
+        <div class="bg"></div>
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">라면</h2>
+                  <p class="item-intro text-muted">세계로 나가는 한국 라면</p>
+                  <img
+                    class="img-fluid d-block mx-auto"
+                    src="https://t1.daumcdn.net/news/201703/31/kbs/20170331182833943jlqs.jpg"
+                    alt="Keep Exploring"
+                  />
+                  <p></p>
+                  <p class="midp">
+                    한국농수산식품유통공사가 제공하는 농식품수출정보에 따르면 올
+                    상반기 라면 수출액은 3억 8340만 달러(약 4976억원)로 기존
+                    최대치였던 지난해 상반기(3억 1969만 달러)보다 19.9%
+                    늘어났다. 2015년 이후 줄곧 늘어나는 라면 수출액을 두고
+                    처음에는 코로나19 확산에 따른 간편식 열풍의 하나로 봤다.
+                    그러나 업계에서는 영화, 드라마, 예능, 유튜브 영상 등 한류
+                    콘텐츠가 세계적으로 큰 인기를 끌면서 한국 식문화에 관한
+                    관심이 덩달아 커졌기 때문으로 분석한다. 유튜브
+                    크리에이터들의 ‘먹방’(먹는 방송)을 통해 유명해진 삼양식품의
+                    ‘불닭볶음면’ 등이 대표적이다.
+                  </p>
+
+                  <br />
+                  <p></p>
+                  <button
+                    class="btn btn-primary"
+                    data-dismiss="modal"
+                    type="button"
+                  >
+                    <i class="fas fa-times"></i>
+                    Close Project
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="p2">
+      <div class="modal_bg hidden">
+        <div class="bg"></div>
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">불고기</h2>
+                  <p class="item-intro text-muted">외국인도 좋아하는 불고기</p>
+                  <img
+                    class="img-fluid d-block mx-auto"
+                    src="http://img2.sbs.co.kr/img/sbs_cms/VD/2015/12/07/VD33940216_w640_h360.JPG"
+                    alt="Keep Exploring"
+                  />
+                  <p></p>
+                  <p class="midp">
+                    CJ제일제당 비비고는 지난 13일부터 17일까지 비비고 글로벌
+                    서포터즈 '비비고 프렌즈' 및 한국에 거주하는 외국인 100명을
+                    대상으로 '외국인이 생각하는 한국 추석 음식' 설문 조사를
+                    실시하고 18일 결과를 발표했다. 이번 설문조사에는 총 22개국,
+                    100명의 한국 거주 외국인이 참여했으며, 한국의 추석 음식과
+                    한식에 대한 외국인들의 생각을 알아보고자 진행됐다. 조사 결과
+                    가장 좋아하는 명절 한식 메뉴(중복 응답 가능)로 불고기(46%)가
+                    가장 높은 선호를 보였다. 뒤이어 갈비찜(36%), 갈비탕(26%),
+                    떡갈비(20%) 동그랑땡(16%) 등 달콤한 양념을 사용하거나,
+                    육류를 주재료로 활용한 한식 메뉴가 인기 명절 한식으로
+                    꼽혔다.
+                  </p>
+
+                  <br />
+                  <p></p>
+                  <button
+                    class="btn btn-primary"
+                    data-dismiss="modal"
+                    type="button"
+                  >
+                    <i class="fas fa-times"></i>
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="p3">
+      <div class="modal_bg hidden">
+        <div class="bg"></div>
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">만두</h2>
+                  <p class="item-intro text-muted">비비고 만두</p>
+                  <img
+                    class="img-fluid d-block mx-auto"
+                    src="https://img.cjnews.cj.net/wp-content/uploads/2020/12/mandu_kfood_201211_03.jpg"
+                    alt="Keep Exploring"
+                  />
+                  <p></p>
+                  <p class="midp">
+                    비비고 만두의 미국매출은 2021년 3억1600만 달러로 2020년보다
+                    27.4% 늘어나며 비슷한 문화권인 유럽시장의 매출 확대 가능성을
+                    높였다. 비비고 만두의 현지화는 미국 이외에 다른 나라에서도
+                    예외없이 적용되고 있다. CJ제일제당은 베트남에서 현지인의
+                    취향에 맞춰 고기와 옥수수를 넣은 '미트앤콘 만두'와 '해산물
+                    만두'를 주력으로 판매하고 있다. 또한 현지 기후와 유통망
+                    사정까지 고려해 상온에 노출된 만두가 서로 들러붙지 않도록
+                    분리 포장 형태로 판매한다. 미국 및 베트남과 달리 중국에서는
+                    부추를 배제하고 옥수수, 배추, 오이 등의 재료를 활용해 모두
+                    17종의 비비고 만두를 내놨는데 고급스러운 포장을 선호하는
+                    중국인들의 취향도 맞췄다. 중국에서 비비고 만두의 시장
+                    점유율은 2020년 5.7%에서 2021년 7.7%로 늘어났다.
+                  </p>
+
+                  <br />
+                  <p></p>
+                  <button
+                    class="btn btn-primary"
+                    data-dismiss="modal"
+                    type="button"
+                  >
+                    <i class="fas fa-times"></i>
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="p4">
+      <div class="modal_bg hidden">
+        <div class="bg"></div>
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">비빔밥</h2>
+                  <p class="item-intro text-muted">비빔밥의 세계화</p>
+                  <img
+                    class="img-fluid d-block mx-auto"
+                    src="https://www.korea.kr/newsWeb/resources/attaches/namo/2010.10/26/75158/3.jpg"
+                    alt="Keep Exploring"
+                  />
+                  <p></p>
+                  <p class="midp">
+                    대표적인 한식메뉴 비빔밥이 흑인 커뮤니티를 사로 잡았다. 7일
+                    LA남부지역 잉글우드 '다비 파크'에서 열린 커뮤니티 이벤트에서
+                    LA한국문화원(원장 김영산)과 비빔밥유랑단이 한식 홍보활동의
+                    일환으로 비빔밥을 제공한 것. 이날 정오부터 시작된 비빔밥
+                    시식 이벤트는 한 시간 남짓 만에 준비한 300인분이 동이 날
+                    정도로 큰 인기를 끌었다.특히 비빔밥을 맛본 타인종들은
+                    조리법을 물어보는 등 '다시 먹고 싶다'며 한식당의 위치를
+                    묻기도 했다.
+                  </p>
+
+                  <p></p>
+                  <button
+                    class="btn btn-primary"
+                    data-dismiss="modal"
+                    type="button"
+                  >
+                    <i class="fas fa-times"></i>
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="p5">
+      <div class="modal_bg hidden">
+        <div class="bg"></div>
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">치킨</h2>
+                  <p class="item-intro text-muted">세계로 나가는 치킨</p>
+                  <img
+                    class="img-fluid d-block mx-auto"
+                    src="https://image.news1.kr/system/photos/2013/4/12/432896/article.jpg/dims/optimize"
+                    alt="Keep Exploring"
+                  />
+                  <p></p>
+                  <p class="midp">
+                    농림축산식품부와 한식진흥원에 따르면 지난해 8~9월 뉴욕과
+                    파리, 베이징 등 주요 도시 주민 8500명을 대상으로 설문조사를
+                    한 결과, 외국인들이 가장 선호하는 한식 메뉴는 ‘한국식
+                    치킨’이 1위(16.1%)를 차지했다. 또한 한식을 먹어본 적이 있는
+                    응답자를 대상으로 자주 먹는 메뉴를 물어보자, 이 또한 ‘한국식
+                    치킨(30%)’이라는 답이 가장 많았다. 이어 김치(27.7%),
+                    비빔밥(27.2%), 떡볶이(18.0%) 등의 순이었다.
+                  </p>
+
+                  <p></p>
+                  <button
+                    class="btn btn-primary"
+                    data-dismiss="modal"
+                    type="button"
+                  >
+                    <i class="fas fa-times"></i>
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="p6">
+      <div class="modal_bg hidden">
+        <div class="bg"></div>
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">삼겹살</h2>
+                  <p class="item-intro text-muted">삼겹살 해외 반응</p>
+                  <img
+                    class="img-fluid d-block mx-auto"
+                    src="https://cdn.travelview.co.kr/travelview/2020/03/21054109/5-18.jpg"
+                    alt="Keep Exploring"
+                  />
+                  <p></p>
+                  <p class="midp">
+                    한국에 와 다양한 한식을 접하면 생각이 바뀐다. 외국인
+                    관광객들에게 자국에 돌아간 뒤에 다시 먹고 싶은 한국
+                    음식으로는 삼겹살(22.5%)이 1위에 올랐다. 이어 소고기
+                    구이류(21.9%), 불고기(21.1%), 비빔밥(19.8%) 순이었다.
+                    전반적으로 고기류의 인기가 높은 편이다. 농림수산식품부
+                    이재식 외식산업진흥과장은 “외국에선 각자 접시에 완성된
+                    요리가 제공되지만, 한국에선 직접 자신이 고기를 화로에 굽고
+                    상추나 깻잎으로 쌈을 싸서 장을 찍어 먹는다”며 “맛과 함께
+                    이런 독특한 문화적 체험이 외국인들에게 좋은 추억을 심어주는
+                    것 같다”라고 말했다.
+                  </p>
+
+                  <p></p>
+                  <button
+                    class="btn btn-primary"
+                    data-dismiss="modal"
+                    type="button"
+                  >
+                    <i class="fas fa-times"></i>
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
